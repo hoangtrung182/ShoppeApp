@@ -4,95 +4,148 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Shoppee</title>
     <link rel="stylesheet" href="./git base.css">
     <link rel="stylesheet" href="./base.css">
     <link rel="stylesheet" href="./main.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/font/fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="stylesheet" href="./modal-auth.css">
 </head> 
 <body>
-        <div class="app">
-            <!--Header-->
-            <header class="header">
-                <div class="grid">
-                    <nav class="header__navbar">
-                        <ul class="header__navbar-list">
-                            <li class="header__navbar-item header__navbar-item--separate">
-                                Vào cửa hàng trên ứng dụng Shop
-                                <div class="header__qr">
-                                    <img src="./assets/New folder/d91264e165ed6facc6178994d5afae79.png" alt="QR code" class="header__qr-img">
-                                    <div class="header__qr-apps">
-                                       <a href="#1" class="header__qr-link">
-                                            <img src="./assets/New folder/appstore.png" alt="Appstore" class="header__qr-down-img">                            
-                                       </a>
-                                       <a href="#2" class="header__qr-link">
-                                           <img src="./assets/New folder/google.png" alt="Google play " class="header__qr-down-img"></a>
+    <div class="app">
+        <!--Header-->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item--separate">
+                            Vào cửa hàng trên ứng dụng Shop
+                            <div class="header__qr">
+                                <img src="./assets/New Image/d91264e165ed6facc6178994d5afae79.png" alt="QR code" class="header__qr-img">
+                                <div class="header__qr-apps">
+                                    <a href="#1" class="header__qr-link">
+                                        <img src="./assets/New Image/appstore.png" alt="Appstore" class="header__qr-down-img">                            
+                                    </a>
+                                    <a href="#2" class="header__qr-link">
+                                        <img src="./assets/New Image/google.png" alt="Google play " class="header__qr-down-img"></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="header__navbar-item">
+                            <span class="header__navbar-title">Kết nối</span>
+                            <a href="#3" class="header__narbar-icon-link">
+                            <i class="header__navbar-icon fab fa-facebook"></i>
+                            </a>
+                            <a href="#4" class="header__narbar-icon-link">
+                                <i class="header__navbar-icon fab fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item header__navbar-item-click">
+                            <a href="#5" class="header__navbar-item-link "><i class="header__navbar-icon fas fa-bell">
+                            </i> Thông báo </a>
+                                <div class="header__notify">
+                                    <header class="header__notify-header">
+                                        <h3>Thông báo mới nhận</h3>
+                                    </header>
+                                    <ul class="header__notify-list">
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#6" class="header__notify-link">
+                                                <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ phẩm Uhui</span>
+                                                    <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#7" class="header__notify-link">
+                                                <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ phẩm Uhui</span>
+                                                    <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li class="header__notify-item header__notify-item--viewed">
+                                            <a href="#8" class="header__notify-link">
+                                                <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
+                                                <div class="header__notify-info">
+                                                    <span class="header__notify-name">Mỹ phẩm Uhui</span>
+                                                    <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="header__notify-footer">
+                                        <a href="#9" class="header__notify-footer-btn">Xem tất cả</a>
                                     </div>
                                 </div>
                             </li>
-                            <li class="header__navbar-item">
-                                <span class="header__navbar-title">Kết nối</span>
-                                <a href="#3" class="header__narbar-icon-link">
-                                <i class="header__navbar-icon fab fa-facebook"></i>
-                                </a>
-                                <a href="#4" class="header__narbar-icon-link">
-                                    <i class="header__navbar-icon fab fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                        <ul class="header__navbar-list">
-                            <li class="header__navbar-item header__navbar-item-click">
-                                <a href="#5" class="header__navbar-item-link "><i class="header__navbar-icon fas fa-bell">
-                                </i> Thông báo </a>
-                                    <div class="header__notify">
-                                        <header class="header__notify-header">
-                                            <h3>Thông báo mới nhận</h3>
-                                        </header>
-                                        <ul class="header__notify-list">
-                                            <li class="header__notify-item header__notify-item--viewed">
-                                                <a href="#6" class="header__notify-link">
-                                                    <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
-                                                    <div class="header__notify-info">
-                                                        <span class="header__notify-name">Mỹ phẩm Uhui</span>
-                                                        <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="header__notify-item header__notify-item--viewed">
-                                                <a href="#7" class="header__notify-link">
-                                                    <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
-                                                    <div class="header__notify-info">
-                                                        <span class="header__notify-name">Mỹ phẩm Uhui</span>
-                                                        <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                            <li class="header__notify-item header__notify-item--viewed">
-                                                <a href="#8" class="header__notify-link">
-                                                    <img src="https://png.pngtree.com/png-clipart/20191028/ourmid/pngtree-hand-drawn-vintage-line-modern-woman-illustration-png-image_1853025.jpg" alt="" class="header__notify-img">
-                                                    <div class="header__notify-info">
-                                                        <span class="header__notify-name">Mỹ phẩm Uhui</span>
-                                                        <span class="header__notify-des">Mô tả mỹ phẩm chính hãng</span>
-                                                    </div>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                        <div class="header__notify-footer">
-                                            <a href="#9" class="header__notify-footer-btn">Xem tất cả</a>
-                                        </div>
-                                    </div>
-                                </li>
-                            <li class="header__navbar-item">
-                                <a href="#10" class="header__navbar-item-link">
-                                <i class="header__navbar-icon fas fa-question-circle"></i>Trợ giúp</a></li>
-                            <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
-                            <li class="header__navbar-item header__navbar-item--strong"> Đăng nhập</li>
-                        </ul>
-                        
-                     </nav>
+                        <li class="header__navbar-item">
+                            <a href="#10" class="header__navbar-item-link">
+                            <i class="header__navbar-icon fas fa-question-circle"></i>Trợ giúp</a></li>
+                        <li class="header__navbar-item header__navbar-item--strong header__navbar-item--separate">Đăng ký</li>
+                        <li class="header__navbar-item header__navbar-item--strong"> Đăng nhập</li>
+                    </ul>                    
+                    </nav>
+            </div>
+            </header>
+    </div>
+    <!-- Modal -->
+    <div class="modal">
+        <div class="modal__overlay"></div>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Authen form -->
+                <div class="auth-form">
+                    <div class="auth-form__container">
+                        <div class="auth-form__header">
+                            <h3 class="auth-form__heading">Đăng Ký</h3>
+                            <span class="auth-form__switch-btn">Đăng nhập</span>
+                        </div>
+                        <div class="auth-form__form">
+                            <div class="auth-form__group">
+                                <input type="text" class="auth-form__input" placeholder="Email của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn">
+                            </div>
+                            <div class="auth-form__group">
+                                <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu của bạn">
+                            </div>                     
+                        </div>
+                        <div class="auth-form__aside">
+                            <p class="auth-form__policy-text">Bằng việc đăng ký, bạn đã đồng ý với Shopee về
+                                 <a href="#" class="auth-form__text-link">Điều khoản bảo mật</a> &
+                                <a href="#" class="auth-form__text-link">Chính sách bảo mật</a>
+                            </p>
+                        </div>
+                        <div class="auth-form__controls">
+                            <button class="btn btn-text btn--normal ">TRỞ LẠI</button>
+                            <button class="btn btn--primary">ĐĂNG KÝ</button>
+                        </div>
+                    </div>
+                    <div class="auth-form__socials">
+                        <a href="#" class="auth-form__socials-fb btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-facebook-square"></i>
+                            <span class="auth-form--socials-label">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="#" class="auth-form__socials-gg btn btn--size-s btn--with-icon">
+                            <i class="auth-form__socials-icon fab fa-google"></i>
+                            
+                            <span class="auth-form--socials-label">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
                 </div>
-              </header>
+            </div>
         </div>
+    </div>
 </body>
 </html>
